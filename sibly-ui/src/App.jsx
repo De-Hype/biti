@@ -16,7 +16,7 @@ function App() {
       <Route path="/:id" exact element={<Chat />} />
       <Route path="/login" exact element={<Login />} />
       <Route path="/register" exact element={<Register />} />
-      <Route path="/profile" exact elemensst={<Profile />} />
+      <Route path="/profile" exact element={<Profile />} />
     </Routes>
     </BrowserRouter>
       
