@@ -3,7 +3,7 @@ import { SiBitly } from "react-icons/si";
 import {  IoMdSettings } from "react-icons/io";
 import { BsChatSquareQuoteFill } from "react-icons/bs";
 import { IoCall } from "react-icons/io5";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
