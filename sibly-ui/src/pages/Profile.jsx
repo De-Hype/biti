@@ -1,5 +1,5 @@
 
-import unknownUser from "@/assets/unknownUser.jpeg";
+import unknownUser from "../assets/unknownUser.jpeg";
 
 const Profile = () => {
   return (
