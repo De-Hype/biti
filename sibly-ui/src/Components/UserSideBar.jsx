@@ -1,7 +1,7 @@
 
 import { useState } from "react";
-import Image from "next/image";
-import unknownUser from "@/assets/unknownUser.jpeg";
+
+import unknownUser from "../assets/unknownUser.jpeg";
 import { FaSearch } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 
@@ -11,7 +11,7 @@ const UserSideBar = () => {
   //Search components
   //Messaged user components
   //For the messaged user, it will have this =>
-  //image, {username, message}, activestatus
+  //img, {username, message}, activestatus
   const handleFriendSearch = (e) => {
     e.preventDefault();
     console.log(search);
@@ -35,7 +35,7 @@ const UserSideBar = () => {
       <aside className="">
       <div className="flex items-center justify-between transition px-2 cursor-pointer py-2 border-b hover:bg-slate-200">
           <div className="flex items-center gap-1">
-            <Image
+            <img
               className="rounded-full h-14 w-14"
               src={unknownUser}
               alt="A profile image of the zenchat chat application user, David Hype ."
@@ -52,7 +52,7 @@ const UserSideBar = () => {
         </div>
         <div className="flex items-center justify-between transition px-2 cursor-pointer py-2 border-b hover:bg-slate-200">
           <div className="flex items-center gap-1">
-            <Image
+            <img
               className="rounded-full h-14 w-14"
               src={unknownUser}
               alt="A profile image of the zenchat chat application user, David Hype ."
@@ -69,7 +69,7 @@ const UserSideBar = () => {
         </div>
         <div className="flex items-center justify-between transition px-2 cursor-pointer py-2 border-b hover:bg-slate-200">
           <div className="flex items-center gap-1">
-            <Image
+            <img
               className="rounded-full h-14 w-14"
               src={unknownUser}
               alt="A profile image of the zenchat chat application user, David Hype ."

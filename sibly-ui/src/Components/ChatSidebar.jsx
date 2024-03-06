@@ -1,6 +1,6 @@
 
-import unknownUser from "@/assets/unknownUser.jpeg";
-import Image from "next/image";
+import unknownUser from "../assets/unknownUser.jpeg";
+
 import { GoDotFill } from "react-icons/go";
 import { FaPlus } from "react-icons/fa";
 import { IoSend } from "react-icons/io5";
@@ -12,7 +12,7 @@ const ChatSidebar = () => {
     <section className="w-3/4 h-full flex flex-col gap-2">
       <aside className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Image
+          <img
             className="rounded-full h-14 w-14"
             src={unknownUser}
             alt="A profile image of the zenchat chat application user, David Hype ."

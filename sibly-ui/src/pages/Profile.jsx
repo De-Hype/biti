@@ -1,5 +1,4 @@
 
-import Image from "next/image";
 import unknownUser from "@/assets/unknownUser.jpeg";
 
 const Profile = () => {
@@ -9,7 +8,7 @@ const Profile = () => {
       <div className="h-4/5 w-full flex items-center justify-center">
         <div className=" flex w-1/2 tab:w-3/4 ">
           <form className="flex gap-3 flex-col items-center w-full">
-            <Image
+            <img
               className="rounded-full h-14 w-14"
               src={unknownUser}
               alt="A profile image of the zenchat chat application user, David Hype ."

@@ -1,7 +1,7 @@
 
-import Link from "next/link";
 import { useState } from "react";
 import { SiBitly } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const [name, setName] = useState("");
@@ -74,7 +74,7 @@ const Register = () => {
           <span>Already have an account?</span>
           <Link
             className="text-blue-500 transition hover:text-red-500"
-            href="/login"
+            to="/login"
           >
             login
           </Link>

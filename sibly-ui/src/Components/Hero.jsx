@@ -1,8 +1,7 @@
-import Image from "next/image";
 
 
 const Hero = () => {
-  // <Image src={} alt="An image of the zenchat chat application." />
+  // <img src={} alt="An image of the zenchat chat application." />
   return (
     <section className="px-4 flex items-center justify-between">
       <aside>
